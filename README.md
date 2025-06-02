@@ -1,0 +1,15 @@
+# single-pdf-website
+
+- [Set up AWS account](https://docs.aws.amazon.com/SetUp/latest/UserGuide/setup-overview.html)
+- [Register your desired domain name (i.e. "example.com")](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-register.html#domain-register-procedure-section)
+- [Install homebrew](https://docs.brew.sh/Installation)
+- [Run "brew install node"](https://formulae.brew.sh/formula/node)
+- [Run "brew install awscli"](https://formulae.brew.sh/formula/awscli)
+- [Run "npm install -g aws-cdk"](https://www.npmjs.com/package/aws-cdk)
+- [Set up authentication for awscli](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html)
+- [Run "git clone https://github.com/jmevorach/single-pdf-website && cd "single-pdf-website"](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?platform=mac)
+- [Run "pip3 install -r requirements.txt"](https://packaging.python.org/en/latest/tutorials/installing-packages/)
+- [Replace "index.pdf" with another "index.pdf" that has the content of your choosing](./site-contents/index.pdf)
+- [Set "domain_name" in "app.py" on line to the domain name you registered](./app.py)
+- [Run "cdk deploy -a "python3 app.py"" and answer "y" at the prompt](https://docs.aws.amazon.com/cdk/v2/guide/ref-cli-cmd-deploy.html)
+- [To make changes replace or alter "index.pdf" and run "cdk deploy -a "python3 app.py" and answer "y" at the prompt](https://docs.aws.amazon.com/cdk/v2/guide/ref-cli-cmd-deploy.html)
